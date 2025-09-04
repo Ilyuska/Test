@@ -19,7 +19,7 @@ interface IDonutChartProps {
   data: IShareholder[];
 }
 
-const COLORS = ["#4E9F3D", "#FF6B6B", "#FFD93D", "#6BCB77"];
+const COLORS = ["#4E9F3D", "#FF6B6B", "#FFD93D", "#a4c66eff", "#222222", "#550055", "blue"];
 
 export const DonutChart: FC<IDonutChartProps> = ({ data }) => {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
